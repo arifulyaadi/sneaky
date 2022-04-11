@@ -1,0 +1,313 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+/*@media(max-width: 414px) {
+  
+  
+  .team-text {
+    left: 34px;
+  }
+  .container .row .col-md-4 
+  .eight .team:hover .team-overlay {
+    position: absolute;
+    right: 6px !important;
+    width: 360px !important;
+    height: 420px !important;
+  }
+  .nine .container .row .col-md-6 .nine-right .nine-right-img::after {
+    width: 366px;
+  }
+  footer .container .row .col-md-4 .right form input {
+    width: 356px !important;
+  }
+  
+}*/
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+  /* CSS */
+  
+
+  .container{
+    width: 94%;
+    margin: auto;
+  }
+  header{
+    display: none;
+  }
+  
+  h1{
+    font-size: 43px !important;
+    line-height: 55px !important;
+    text-align: center !important;
+  }
+  h2{
+    font-size: 40px !important;
+  }
+  h3{
+    font-size: 25px !important;
+  }
+  .banner .container-left h1{
+    margin: 0px 0px 50px 0px !important;
+  }
+  .both .bnr-vdo {
+    margin-left: 70px; 
+  }
+  .both .book-now{
+    padding: 15px 27px !important;
+  }
+  .headfone{
+    padding: 0px 0px 0px 26px !important;
+  }
+  .car, .tomato, .headfone{
+    
+  }
+  .third {
+
+    padding: 0px 0px 100px 0px !important;
+  }
+  
+  .third-right {
+    padding: 197px 0px 0px 0px !important;
+    text-align: center !important;
+  }
+  .third .line-h h4::after{
+    left: 186px !important;
+  }
+  .forth {
+    padding: 0px 0px 100px 0px !important;
+}
+  .forth .line-h {
+    padding-right: 0 !important;
+  }
+  .forth-fst{
+    text-align: center !important;
+  }
+  .forth .forth-fst .line-h h4::after{
+    left: 215px !important;
+  }
+  
+  #slider-two .owl-prev{
+    left: 40% !important;
+  }
+  #slider-two .owl-next{
+    right: 40% !important;
+  }
+  .rating span {
+    margin-left: 163px !important;
+  }
+  .fifth {
+    padding: 100px 0px 100px 0px !important;
+  }
+  .italy-up {
+    position: relative !important;
+    width: 100% !important;
+    height: 202px !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 14px;
+  }
+  .italy{
+    width: 100% !important;
+  }
+  .six {
+    width: 100%;
+    padding: 100px 0px !important;
+  }
+  .sixth-fst-row{
+    text-align: center !important;
+  }
+  .six .container .row .sixth-fst-row h4::after{
+    left: 199px!important;
+  }
+  .six .menu{
+    position: relative !important;
+    padding: 0!important;
+  }
+  .six .menu-img{
+    position: absolute !important;
+    top: 4px !important;
+    left: 48% !important;
+  }
+  .six .menu-text{
+    padding: 18px 0px !important;
+  }
+  .menu-img img{
+    width: 60% !important;
+  }
+  .menu-text h4{
+    width: 30% !important;
+  }
+  .six .menu-text .multi-line::before {
+    right: -140px;
+  }
+  .menu-text span {
+    font-size: 18px !important;
+    padding-left: 171px !important;
+    padding-top: 14px !important;
+  }
+  .six-card{
+    margin-bottom: 22px !important;
+  }
+  .seven{
+    position: relative !important;
+  }
+  .seven-cnt{
+    position: absolute !important;
+    top: 85px !important;
+    left: 0px !important;
+    padding: 0px 36px;
+  }
+  .seven-cnt h2 {
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    margin-bottom: 38px !important;
+  }
+  .eight-fst-row{
+    text-align: center !important;
+  }
+  .eight .container .row .col-md-6 .line-h h4::after{
+    left: 186px !important;
+  }
+  .team-text {
+    left: 21px !important;
+    padding: 20px 64px 10px 64px !important;
+  }
+  .team-overlay ul li a i {
+    color: #4aa5ff !important;
+    transition: 0.5s;
+  }
+  .team-col{
+    margin-bottom: 20px!important;
+  }
+  .eight .team:hover .team-overlay ul{
+    position: absolute;
+    top: 86px !important;
+    right: 20px !important;
+    opacity: 1 !important;
+    transition: 0.5s;
+    z-index: 9999 !important;
+  }
+  /* .container .row .col-md-4*/ 
+  .eight .team:hover .team-overlay{
+    top: 0 ;
+    right: 0 ;
+    height: 383px;
+    width: 329px;
+  }
+  .nine-left{
+    text-align: center !important;
+    padding: 0px !important;
+  }
+  .nine .container .row .col-md-6 .line-h h4::after{
+    position: absolute !important;
+    left: 205px !important;
+  }
+  .nine .nine-right .nine-right-img::after {
+    width: 329px !important;
+  }
+  .nine .nine-right .nine-right-text h3 {
+    position: absolute !important;
+    top: -44px !important;
+    left: 20% !important;
+    font-size: 24px !important;
+  }
+  .nine .nine-right .nine-right-text {
+    position: absolute !important;
+    top: 52px !important;
+    left: 27px !important;
+  }
+  .nine .nine-right .nine-right-text .form-control{
+    width: 89% !important;
+    height: 43px !important;
+    margin-bottom: 10px !important;
+  }
+  .nine .nine-right .nine-right-text .book-now {
+    bottom: -67px !important;
+    left: 19% !important;
+    padding: 15px 18px !important;
+  }
+  .form-overlay i {
+    top: 15px !important;
+    right: 62px !important;
+  }
+  .ten {
+    padding: 70px 0px 100px 0px !important;
+  }
+  .ten-up {
+    padding-right:0px !important;
+    text-align: center !important;
+  }
+  .ten .container .row .col-md-6 .line-h h4::after{
+    left: 188px !important; 
+  }
+  footer {
+    text-align: center !important;
+  }
+  footer .container .row .col-md-4 .right form input{
+    width: 327px !important;
+  }
+  footer .container .row .col-md-4 .f-last-right-row{
+    text-align: center !important;
+  }
+  footer .container .row .col-md-4 .f-last-right-row ul{
+    padding-left: 0rem !important;
+  }
+}
+
